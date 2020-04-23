@@ -1,0 +1,71 @@
+.Navigation {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 96px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 10px;
+
+  &title {
+    margin-left: 50px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: bold;
+    
+  }
+  
+  &menu {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+  }
+
+  &menu-entry {
+    font-size: 20px;
+    line-height: 16px;
+    color: #000000;
+    cursor: pointer;
+    margin-right: 64px;
+    font-weight: bold;
+
+    &:hover {
+      color: #555555;
+      
+    }
+  }
+
+  &menu-button {
+    margin-right: 58px;
+    font-size: 20px;
+    padding: 12px 22px;
+    background-color: #000000;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+
+    &:hover {
+      color: #000000;
+      background-color: #333333;
+    }
+  }
+
+  &title-entry--active {
+    color: #000000;
+    &:hover {
+      color: #000000;
+    }
+  }
+  
+  &menu-entry--active {
+    color: #000000;
+  }
+
+  &menu-button--active{
+    color: white;
+    &:hover {
+      color: white;
+    }
+  }
+}
